@@ -1,0 +1,36 @@
+body{
+    height: 95vh;
+}
+
+ul{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+ul li{
+    display: inline-block;
+    margin: 0 5px;
+
+}
+
+ul li a{
+    width: 45px;
+    height: 35px;
+    background: #ff4d4d;
+    display: block;
+    color: #fff;
+    padding-top: 5px;
+    border-radius: 5px; 
+    transition: 0.6s;
+}
+
+ul li a:hover{
+    background: #ff3838;
+}
